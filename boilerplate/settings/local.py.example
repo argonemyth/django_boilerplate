@@ -1,0 +1,25 @@
+#If local.py is present, any settings in it will override those in base.py and dev.py.
+# Use this for any settings that are specific to this one installation, such as developer API keys.
+# local.py should not be checked in to version control.
+
+# It is strongly recommended that you define a SECRET_KEY here, where it won't be visible
+# in your version control system.
+SECRET_KEY = 'enter-a-long-unguessable-string-here'
+
+
+# from .base import INSTALLED_APPS, MIDDLEWARE_CLASSES
+# INSTALLED_APPS += (
+#     'additional_app',
+# )
+# MIDDLEWARE_CLASSES += (
+#     'additional_middleware_class',
+# )
+
+# Mail Info
+EMAIL_HOST = 'xxx'
+EMAIL_PORT = 587 
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'XX'
+EMAIL_HOST_PASSWORD = 'xxx'
+SERVER_EMAIL = 'xxxx'
+DEFAULT_FROM_EMAIL = 'xxxx'

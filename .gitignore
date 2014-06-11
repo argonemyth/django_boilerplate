@@ -31,3 +31,9 @@ coverage.xml
 
 # Sphinx documentation
 docs/_build/
+
+# Local settings
+*/settings/local.py
+
+# Local Sqlite
+db.sqlite3
