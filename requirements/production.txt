@@ -1,0 +1,8 @@
+-r base.txt
+psycopg2==2.5.3
+gunicorn==18.0
+redis==2.10.1
+django-redis-cache==0.13.0
+#django-celery==3.1.10
+#pyelasticsearch==0.6.1
+#elasticutils==0.9.1
