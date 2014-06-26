@@ -16,9 +16,9 @@ Run the following commands:
 
     git clone https://github.com/argonemyth/django_boilerplate.git project_name 
     cd project_name
-    pip install -r requirements/dev.txt
     $ virtualenv venv --distribute # if you use virtualenv, skip this if you don't.
     $ source ./venv/bin/activate # if you use virtualenv, skip this if you don't.
+    pip install -r requirements/dev.txt
     python manage.py syncdb
     python manage.py migrate
     python manage.py runserver
