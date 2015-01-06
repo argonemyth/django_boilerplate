@@ -29,8 +29,6 @@ INSTALLED_APPS+= (
     'gunicorn',    
 )
 
-
-
 # Cache
 CACHES = { 
     'default': {

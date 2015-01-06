@@ -2,9 +2,8 @@ from .base import *
 
 DEBUG = True
 TEMPLATE_DEBUG = True
-COMPRESS_ENABLED = False
 
-# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 DATABASES = {
     'default': {
