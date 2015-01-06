@@ -19,7 +19,6 @@ Run the following commands:
     $ virtualenv venv # if you use virtualenv, skip this if you don't.
     $ source ./venv/bin/activate # if you use virtualenv, skip this if you don't.
     pip install -r requirements/dev.txt
-    python manage.py syncdb
     python manage.py migrate
     python manage.py runserver
 
