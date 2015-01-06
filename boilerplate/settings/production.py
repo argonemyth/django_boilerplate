@@ -50,12 +50,12 @@ TEMPLATE_LOADERS = (
 )
 
 # CELERY SETTINGS
-import djcelery
-djcelery.setup_loader()
+# import djcelery
+# djcelery.setup_loader()
 
-BROKER_URL = 'redis://'
-CELERY_SEND_TASK_ERROR_EMAILS = True
-CELERYD_LOG_COLOR = False
+# BROKER_URL = 'redis://'
+# CELERY_SEND_TASK_ERROR_EMAILS = True
+# CELERYD_LOG_COLOR = False
 
 
 try:
