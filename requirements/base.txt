@@ -1,10 +1,6 @@
-Django==1.6.5
-South==0.8.4
-Unidecode==0.04.16 # dependancy
-django-appconf==0.6 # dependancy
-django-compressor==1.3
-django-taggit==0.11.2
-django-uuslug==1.0.2
-python-slugify==0.0.7 # dependancy
-six==1.7.2 # dependancy
-wsgiref==0.1.2 # dependancy
+Django==1.7.2
+django-taggit==0.12.2
+Unidecode==0.04.17 # uuslug dep
+python-slugify==0.1.0 # uuslug dep
+django-uuslug==1.0.3
+# django-compressor==1.3

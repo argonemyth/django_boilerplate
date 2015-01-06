@@ -1,7 +1,7 @@
 Django Boilerplate
 ==================
 
-A boilerplate for creating a django project in 5 mins.
+A boilerplate for creating a django (1.7.2) project in 5 mins.
 
 Setup
 -----
@@ -16,7 +16,7 @@ Run the following commands:
 
     git clone https://github.com/argonemyth/django_boilerplate.git project_name 
     cd project_name
-    $ virtualenv venv --distribute # if you use virtualenv, skip this if you don't.
+    $ virtualenv venv # if you use virtualenv, skip this if you don't.
     $ source ./venv/bin/activate # if you use virtualenv, skip this if you don't.
     pip install -r requirements/dev.txt
     python manage.py syncdb

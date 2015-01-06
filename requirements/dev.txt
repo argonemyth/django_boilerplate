@@ -1,2 +1,2 @@
 -r base.txt
-ipython==2.1.0
+ipython==2.3.1
